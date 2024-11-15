@@ -29,3 +29,11 @@ Medical_personnel_allocation:
   expected_output: >
     A roster medical personnel allocation from {input}
   agent: medical_personnel_allocator
+
+
+desicion_making_task:
+  description: >
+    Report on the location and dispatching of each patient.
+  expected_output: >
+    A list of patient, their corresponding bed, personnel, supply and transportation {input}
+  agent: desicion_maker

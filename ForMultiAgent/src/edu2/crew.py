@@ -32,32 +32,76 @@ class Edu2():
 	tasks_config = 'config/tasks.yaml'
 
 	@agent
-	def researcher(self) -> Agent:
+	def bed_allocator(self) -> Agent:
 		return Agent(
-			config=self.agents_config['researcher'],
+			config=self.agents_config['bed_allocator'],
 			# tools=[MyCustomTool()], # Example of custom tool, loaded on the beginning of file
 			verbose=True,
 			#tools=[search_tool]
 			#llm=perplexity_llm
 		)
+	@agent
+	def helicopter_allocator(self) -> Agent:
+		return Agent(
+			config=self.agents_config['helicopter_allocator'],
+			# tools=[MyCustomTool()], # Example of custom tool, loaded on the beginning of file
+			verbose=True,
+			#tools=[search_tool]
+			#llm=perplexity_llm
+		)
+	
+	@agent
+	def medical_supply_allocator(self) -> Agent:
+		return Agent(
+			config=self.agents_config['medical_supply_allocator'],
+			# tools=[MyCustomTool()], # Example of custom tool, loaded on the beginning of file
+			verbose=True,
+			#tools=[search_tool]
+			#llm=perplexity_llm
+		)
+		
+	@agent
+	def medical_personnel_allocator(self) -> Agent:
+		return Agent(
+			config=self.agents_config['medical_personnel_allocator'],
+			verbose=True
+		)
 
 	@agent
-	def reporting_analyst(self) -> Agent:
+	def decision_maker(self) -> Agent:
 		return Agent(
-			config=self.agents_config['reporting_analyst'],
+			config=self.agents_config['decision_maker'],
 			verbose=True
 		)
 
 	@task
-	def research_task(self) -> Task:
+	def Bed_allocation(self) -> Task:
 		return Task(
-			config=self.tasks_config['research_task'],
+			config=self.tasks_config['Bed_allocation'],
 		)
 
 	@task
-	def reporting_task(self) -> Task:
+	def Helicopter_allocation(self) -> Task:
 		return Task(
-			config=self.tasks_config['reporting_task'],
+			config=self.tasks_config['Helicopter_allocation'],
+		)
+
+	@task
+	def Medical_supply_allocation(self) -> Task:
+		return Task(
+			config=self.tasks_config['Medical_supply_allocation'],
+		)
+	
+	@task
+	def Medical_personnel_allocation(self) -> Task:
+		return Task(
+			config=self.tasks_config['Medical_personnel_allocation'],
+		)
+
+	@task
+	def desicion_making_task(self) -> Task:
+		return Task(
+			config=self.tasks_config['desicion_making_task'],
 			output_file='report.md'
 		)
 
