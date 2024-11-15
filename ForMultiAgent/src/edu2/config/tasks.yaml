@@ -5,21 +5,19 @@ estimation:
     A detailed report of patients' symptoms and the corresponding treatments required from {input}. Make sure all patients listed in {input} are accounted for.
   agent: estimator
 
+Helicopter_allocation:
+  description: >
+    Identify the most efficient allocation of a limited number of helicopters from the patient requirements detailed by the estimator and make sure it maximises the number of patients, provided by the estimation that can be transported.
+  expected_output: >
+    A list of patients being assigned to helocpters based on the patient roster produced by the estimator
+  agent: helicopter_allocator
+
 Bed_allocation:
   description: >
-    Identify the most efficient allocation of a limited number of beds from the patient requirements detailed by the estimator and make sure
-    it maximises the number of patients, provided by the estimation that can be treated.
+    Identify the most efficient allocation of a limited number of beds from the patient requirements detailed by the estimator and make sure it maximises the number of patients, provided by the estimation that can be treated.
   expected_output: >
     A recommendation of the bed occupancy based on the patient roster produced by the estimator
   agent: bed_allocator
-
-Helicopter_allocation:
-  description: >
-    Identify the most efficient allocation of a limited number of helicopters from the patient requirements detailed by the estimator and make sure
-    it maximises the number of patients, provided by the estimation that can be transported.
-  expected_output: >
-    A roster helicopter allocation based on the patient roster produced by the estimator
-  agent: helicopter_allocator
 
 Medical_supply_allocation:
   description: >
@@ -42,5 +40,5 @@ desicion_making_task:
   description: >
     Report on the location and dispatching of each patient. Make sure all patients listed in {input} are accounted for.
   expected_output: >
-    A list of patient, their corresponding bed, personnel, supply and transportation allocation. Make sure all patients listed in {input} are accounted for. Make sure all medical personnel listed in {input} are accounted for. All patients that are on helicopter transport do not need assigned beds.
+    A list of patient, their corresponding bed, personnel, supply and transportation allocation. Make sure all patients listed in {input} are accounted for. Make sure all medical personnel listed in {input} are accounted for. Also make sure all resources are used to the maximum, but not more than allowed. All patients that are on helicopter transport do not need assigned beds.
   agent: decision_maker

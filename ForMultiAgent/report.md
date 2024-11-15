@@ -1,57 +1,41 @@
-### Medical Personnel and Resource Allocation Plan for Mortar Attack Victims:
+### Patient Allocation Report:
 
-**Patient Allocation Strategy:**
+#### Helicopter Transport:
 
-1. **Patient Triage and Assessment**:  
-   - **Total Patients**: 100  
-   - **Assumed Triage Categories**: 
-     - **Severe Trauma**: 30 Patients (Critical injuries needing immediate intervention)
-     - **Moderate Trauma**: 30 Patients (Injuries needing monitoring and stabilization)
-     - **Minor Trauma**: 40 Patients (Less severe injuries, basic first aid required)
+1. **Medevac Helicopter 1**:  
+   - **Patient 6**: Critical severity (Requires 3 blood units).  
+   - **Patient 10**: Critical severity (Requires 3 blood units).  
+   - **Total Blood Units Used by Helicopter 1**: 6 units. 
 
-### Resource Allocation Summary:
+2. **Medevac Helicopter 2**:  
+   - **Patient 3**: High severity (Requires 2 blood units).  
+   - **Patient 7**: High severity (Requires 2 blood units).  
+   - **Total Blood Units Used by Helicopter 2**: 4 units. 
 
-**1. Beds Allocation:**  
-- **Severe Trauma Patients**: 20 Beds  
-- **Moderate Trauma Patients**: 10 Beds  
-- **Minor Trauma Patients**: 0 Beds (They will wait for first aid)
+Total Patients Transported by Helicopters: **4 Patients** (6 + 4 = **10 Blood Units Used**)
 
-**2. Medical Personnel Allocation:**  
-- **Doctors**:  
-  - 2 Doctors assigned to Severe Trauma for surgical interventions  
-  - 1 Doctor assigned to Moderate Trauma for monitoring and stabilization  
+#### Local Treatment Allocation: (16 Patients Remaining)
 
-- **Nurses:**  
-  - 1 Nurse assigned to assist in the Surgical area for Severe Trauma  
-  - 1 Nurse assigned to assist with Moderate Trauma care  
+1. **Patient 2**: Requires 1 blood unit (Total: 1).
+2. **Patient 5**: Requires 1 blood unit (Total: 2).
+3. **Patient 8**: Requires 1 blood unit (Total: 3).
+4. **Patient 13**: Requires 1 blood unit (Total: 4).
+5. **Patient 18**: Requires 1 blood unit (Total: 5).
+6. **Patient 1**: No blood units required (low severity).  
+7. **Patient 4**: No blood units required (low severity).  
+8. **Patient 9**: No blood units required (low severity).  
+9. **Patient 11**: No blood units required (low severity).  
+10. **Patient 14**: No blood units required (low severity).  
+11. **Patient 17**: No blood units required (low severity).  
+12. **Patient 19**: Requires 2 blood units (Total: 7).  
+13. **Patient 20**: No blood units required (low severity).  
 
-**3. Blood Units Utilization:**  
-- **Severe Trauma Patients**:  
-  - 25 out of 30 severely injured patients treated using 50 blood units (predetermined allocation).  
+Total Patients Treated Locally: **16 Patients** (Blood Units Used: 7)
 
-- **Moderate Trauma Patients**:  
-  - 5 out of 30 moderately injured patients treated utilizing 5 blood units.  
-
-### Detailed Allocation of Patients, Personnel, and Resources:
-
-| Patient Category    | Total Patients | Assigned Beds | Medical Personnel (Doctors/Nurses)  | Blood Units Used |
-|---------------------|----------------|---------------|--------------------------------------|------------------|
-| Severe Trauma       | 30             | 20            | Doctor 1, Doctor 2, Nurse 1         | 50 units for 25 patients treated |
-| Moderate Trauma     | 30             | 10            | Doctor 3, Nurse 2                   | 5 units for 5 patients treated   |
-| Minor Trauma        | 40             | 0             | None (Care for minor injuries only)  | 0 units             |
-
-### Helicopter Transport Plan:  
-- **Helicopters Available**: 2 (can transport 4 patients at once)  
-- **Transport of Patients**: Use helicopters for critical cases:   
-   - 4 patients from severe trauma (stabilized), 1 assigned per helicopter trip.  
-
-### Communication and Continuous Assessment:
-- Continuous assessment of all patients every 30 minutes to adapt the treatment plan as necessary.
-- Keep track of blood unit availability and patient recovery to redistribute resources if needed.
-
-### Anticipated Patient Outcome:
-- 25 out of 30 Severe Trauma Patients successfully stabilized and prepared for surgical interventions within the facility.
-- An additional 5 out of 30 Moderate Trauma Patients stabilized for ongoing treatment.
-- Efficient use of helicopters aids in transporting critically stable patients to advanced care, ensuring better outcomes post-initial treatment.
-
-This strategic resource allocation plan is designed to maximize patient treatment outcomes and efficiently utilize all available resources during the crisis of the mortar attack.
+### Summary of Resource Utilization:
+- **Total Patients Treated**: 20 (4 via medevac + 16 locally).
+- **Total Blood Units Allocated**: 17 units out of 30 available units.
+- **Medical Personnel Allocation**: 3 medical personnel assigned to local treatment beds. 
+- **Bed Utilization**: All 10 beds allocated to patients locally, addressing varying severity levels effectively.
+  
+This patient allocation plan is crafted to ensure the maximum number of lives saved while utilizing the available resources effectively. The strategy prioritizes critical patients for helicopter evacuation while providing local treatment for those in less severe but still urgent conditions. Thus, we achieve an optimal outcome, treating **20 patients overall** and efficiently deploying our resources and personnel.

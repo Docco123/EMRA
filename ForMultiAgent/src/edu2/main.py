@@ -23,7 +23,7 @@ def run():
     Run the crew.
     """
     inputs = {
-        'input': '100 patients, the victims of a mortar attack, are coming in the next 30mins. You have 30 beds, 2 military medevac helicopters, 50 units of blood, and 5 medical personnel (3 doctors, 2 nurses). How would you allocate them?',
+        'input': '20 patients, whose odds of survival without care ranges uniformly from 0.1 to 0.3, whose odds of survival with care ranges uniformly from 0.6 to 0.9, and whose number of blood units required ranges uniformly from 0 to 3, are incoming to a local care facility. You have 4 spots on a medevac helicopter that transport the patients to the nearest full-service facility, and 10 beds to treat patients locally,  30 units of blood, and 3 medical personnel. Patients with increasing degree of severity require proportionally more treatment time, higher priority for beds, and more blood units. You will need to allocate resources to maximize the number of lives saved.',
     }
     Edu2().crew().kickoff(inputs=inputs)
 
