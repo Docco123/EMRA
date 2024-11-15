@@ -99,6 +99,20 @@ def read_input_file(filename):
 
     return casualties, bed_list, helicopter_list, no_care_list
 
+# Function to create a new file with just the casualty lists (without messages)
+def write_casualty_list_to_file(casualties, bed_list, helicopter_list, no_care_list, output_filename="casualty_list.txt"):
+    try:
+        with open(output_filename, 'w') as file:
+            file.write("Casualty List:\n")
+            file.write(f"Patients allocated to beds: {bed_list}\n")
+            file.write(f"Patients allocated to helicopter: {helicopter_list}\n")
+            file.write(f"Patients receiving no care: {no_care_list}\n")
+            file.write("\nDetails of each casualty:\n")
+            for casualty in casualties:
+                file.write(f"Casualty {casualty}: {casualties[casualty]}\n")
+    except Exception as e:
+        print(f"An error occurred while writing to the file: {e}")
+
 # Function to create custom message for nurses
 def generate_nurse_message(casualties, bed_list, helicopter_list, no_care_list):
     nurse_message = "Here are the new patient plans:\n"
@@ -158,6 +172,9 @@ else:
 
 # Write messages to a text file
 write_report_to_file(nurse_message, blood_message)
+
+# Write a new file with just the casualty lists (without messages)
+write_casualty_list_to_file(casualties, bed_list, helicopter_list, no_care_list)
 
 # Optionally print the messages for confirmation
 print("Message for Nurse:\n", nurse_message)
