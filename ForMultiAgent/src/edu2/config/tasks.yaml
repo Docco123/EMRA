@@ -1,0 +1,31 @@
+Bed_allocation:
+  description: >
+    Identify the most efficient allocation of a limited number of beds as provided in {input} and make sure
+    it maximises the number of patients, provided in {input} that can be treated.
+  expected_output: >
+    A roster bed occupancy from {input}
+  agent: bed_allocator
+
+Helicopter_allocation:
+  description: >
+    Identify the most efficient allocation of a limited number of helicopters as provided in {input} and make sure
+    it maximises the number of patients, provided in {input} that can be transported.
+  expected_output: >
+    A roster helicopter allocation from {input}
+  agent: helicopter_allocator
+
+Medical_supply_allocation:
+  description: >
+    Identify the most efficient allocation of a limited number of medical supplies (blood units) as provided in {input} and make sure
+    it maximises the number of patients, provided in {input} that can be treated.
+  expected_output: >
+    A roster medical supply allocation from {input}
+  agent: medical_supply_allocator
+
+Medical_personnel_allocation:
+  description: >
+    Identify the most efficient allocation of a limited number of medical personnel as provided in {input} and make sure
+    it maximises the number of patients, provided in {input} that can be treated.
+  expected_output: >
+    A roster medical personnel allocation from {input}
+  agent: medical_personnel_allocator
