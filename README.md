@@ -1,4 +1,4 @@
-# casualtyAllocator
+# EMRA
  Project at AGI x SCSP
 
 Working Project Summary:
