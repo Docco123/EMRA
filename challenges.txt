@@ -58,3 +58,67 @@ Modal is containers as a service
 Host a web app
 Model deploy web app
 
+-----------------------
+Colin's Notes: 
+
+DOE Rep: 
+- Ideas: multimodal ai models that can understand scientific papers and take in scientific results and compare to the available literature.
+- DOE data explorer, materials data facility 
+- Genetic ai system that can work with robots in the lab to run real world experiments 
+CTO at CIA: “no intro needed, we are already in your lives one way or another”
+- CIA has to power to “great power competition” (economic dominance) and big tech solutions
+- “Compiler guy by training”
+- OODA loop meets the Dev Ops loop.
+- Intel community interested in figuring out what the competition has 
+- Importance of being able to quickly react to updates and changes… make sure what is being built in flexible and reactive
+- if your not dealing with data and AI, you are probably a organization in decline
+- Idea of building systems to automatically vet data and pull the most important insights for the user
+
+OSINT rep: 
+- Open Source enterprise: traces roots of open telecom (started 1941 warning of attack)
+- Misunderstanding that it’s just data and social media. Sometime most important info is hard copy news or video feeds from terabytes of data. Have been generating too much data for the intel agencies to use.
+- They have solved the too much info problem… now focused on collecting more data
+- Importance of data curation and answer explanabilty 
+- World’s best triage tool
+- Automated the process of writing summary’s and reports for the decision makers/warfighter… production documents
+- Importance of PROMT ENGINEERING 
+- finding new information based off facial info and such
+- Need: work on Fake Media/Synthetic media, looking at narratives more deeply to make predictions, providing warning for major events
+
+Lisa Einstein, cheif ai officer at Cyber security and infrastructure secure association: reducing risk of the infurstructiure we rely on
+- protecting all .gov
+- Protecting private sector healthcare, banking, driving, etc
+- Problem: software that is secure by design. “Fuzzing testing” automation and how our adversaries exploit vulnerabilities 
+- “We have very motivated adversaries”
+- Red teaming and blue teaming through AI agents
+- Obsess with the problem, not the AI
+
+Sara Person with DIU: Defense innovation unit
+- trace back to 2015 with SecDef Carter
+- Helps gov find helpful commercial tech
+- Challenge: better understand the needs of the DoD through public info like spending bills
+- what is the “color of monies”
+- DIU.mil
+
+Person in all black
+- cyber security
+- How to ease the burden on cyber defenders 
+- consider how do we secure AI systems, how can we automate the job of a cyber defender
+
+Guest: Eric, ceo of Google (in a private jet)
+- how to get establishment thinker on to a small autonomous model
+- Importance of proving your idea
+- “My best friend for many years was Henry Kissinngger”
+- Developed an interest in “cogs”
+- Book starts talking about polymaths, very rare and very valuable
+- In the next decade or so, will be possible to have everyone have a polymath on their phone. In 10 years, will have a system in 95th percentile of every field for you to use. What would it be like to live with this? It has no morales
+- Reinforcement leading with foundation models.
+- The scaling laws may be decreasing
+- What happens when people’s best friends are these agents, when they misbehave, when they have access to weapons, when other countries use them: book called Genisus (like the biblical book)
+- SCSP was Kissinggers idea. Wrote reports about the problems of the time. 
+- Government is good at saying the like people building companies, bad at working with them. It’s very hard to get scalable money. We don’t have a structured model for startup people to works with the Gov untill you have enough revenue to have a sales force and work with the government 
+- Don’t use AI models with stocasity do algorithmic tasks… use algorithms (can use ai to create these
+- Chairman of a company called sandbox EQ… doing quantum sensing and aggregation: not jammable 
+- GPS doesn’t work because it is being blocked across the conflict zone
+- Quantum sensing can help with biometric info for health. 
+- The GPU ability to do quantum simulation is pretty good
