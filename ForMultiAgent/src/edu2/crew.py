@@ -30,6 +30,13 @@ class Edu2():
 
 	agents_config = 'config/agents.yaml'
 	tasks_config = 'config/tasks.yaml'
+	
+	@agent
+	def estimator(self) -> Agent:
+		return Agent(
+			config=self.agents_config['estimator'],
+			verbose=True
+		)
 
 	@agent
 	def bed_allocator(self) -> Agent:
@@ -73,6 +80,13 @@ class Edu2():
 			config=self.agents_config['decision_maker'],
 			verbose=True
 		)
+
+	@task
+	def estimation(self) -> Task:
+		return Task(
+			config=self.tasks_config['estimation'],
+		)
+
 
 	@task
 	def Bed_allocation(self) -> Task:

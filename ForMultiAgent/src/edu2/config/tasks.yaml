@@ -1,39 +1,46 @@
+estimation:
+  description: >
+    Determine the distribution of patients' symptoms and treatments required given a casualty event described in {input}. 
+  expected_output: >
+    A detailed report of patients' symptoms and the corresponding treatments required from {input}. Make sure all patients listed in {input} are accounted for.
+  agent: estimator
+
 Bed_allocation:
   description: >
-    Identify the most efficient allocation of a limited number of beds as provided in {input} and make sure
-    it maximises the number of patients, provided in {input} that can be treated.
+    Identify the most efficient allocation of a limited number of beds from the patient requirements detailed by the estimator and make sure
+    it maximises the number of patients, provided by the estimation that can be treated.
   expected_output: >
-    A roster bed occupancy from {input}
+    A recommendation of the bed occupancy based on the patient roster produced by the estimator
   agent: bed_allocator
 
 Helicopter_allocation:
   description: >
-    Identify the most efficient allocation of a limited number of helicopters as provided in {input} and make sure
-    it maximises the number of patients, provided in {input} that can be transported.
+    Identify the most efficient allocation of a limited number of helicopters from the patient requirements detailed by the estimator and make sure
+    it maximises the number of patients, provided by the estimation that can be transported.
   expected_output: >
-    A roster helicopter allocation from {input}
+    A roster helicopter allocation based on the patient roster produced by the estimator
   agent: helicopter_allocator
 
 Medical_supply_allocation:
   description: >
-    Identify the most efficient allocation of a limited number of medical supplies (blood units) as provided in {input} and make sure
-    it maximises the number of patients, provided in {input} that can be treated.
+    Identify the most efficient allocation of a limited number of medical supplies (blood units) from the patient requirements detailed by the estimator and make sure
+    it maximises the number of patients, provided by the estimation that can be treated.
   expected_output: >
-    A roster medical supply allocation from {input}
+    A roster medical supply allocation based on the patient roster produced by the estimator
   agent: medical_supply_allocator
 
 Medical_personnel_allocation:
   description: >
-    Identify the most efficient allocation of a limited number of medical personnel as provided in {input} and make sure
-    it maximises the number of patients, provided in {input} that can be treated.
+    Identify the most efficient allocation of a limited number of medical personnel from the patient requirements detailed by the estimator and make sure
+    it maximises the number of patients, provided by the estimation that can be treated.
   expected_output: >
-    A roster medical personnel allocation from {input}
+    A roster medical personnel allocation based on the patient roster produced by the estimator, make sure all medical personnel listed in {input} are accounted for.
   agent: medical_personnel_allocator
 
 
 desicion_making_task:
   description: >
-    Report on the location and dispatching of each patient.
+    Report on the location and dispatching of each patient. Make sure all patients listed in {input} are accounted for.
   expected_output: >
-    A list of patient, their corresponding bed, personnel, supply and transportation {input}
-  agent: desicion_maker
+    A list of patient, their corresponding bed, personnel, supply and transportation allocation. Make sure all patients listed in {input} are accounted for. Make sure all medical personnel listed in {input} are accounted for. All patients that are on helicopter transport do not need assigned beds.
+  agent: decision_maker

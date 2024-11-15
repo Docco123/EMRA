@@ -23,7 +23,7 @@ def run():
     Run the crew.
     """
     inputs = {
-        'input': '100 patients are coming in the next 30mins. 30 of them are in a critical state and will require 70 percent of the resources. You have 30 beds, 2 military medevac helicopters, 10 medical supplies, and 5 medical personnel. How would you allocate them?',
+        'input': '100 patients, the victims of a mortar attack, are coming in the next 30mins. You have 30 beds, 2 military medevac helicopters, 50 units of blood, and 5 medical personnel (3 doctors, 2 nurses). How would you allocate them?',
     }
     Edu2().crew().kickoff(inputs=inputs)
 
