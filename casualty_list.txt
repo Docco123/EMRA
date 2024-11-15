@@ -1,0 +1,6 @@
+Casualty List:
+Patients allocated to beds: []
+Patients allocated to helicopter: []
+Patients receiving no care: []
+
+Details of each casualty:
