@@ -1,0 +1,60 @@
+Elena Phu DOE
+
+Multi modal AI models to understand science problems and work with scientist
+Train multiple modals for research, simulation, and coding
+DOE has a data explorer with many datasets
+Argon NL also has a data sandbox
+Having genetic AI systems in the labs. Combine models on robotic hardware in the labs to do research.
+
+CIA chief tech officer Nand mulchandia
+
+OODA loop meets DEVOPS loop. Close kill chains.
+Mark to market problem.
+Need flexible architecture and systems to react.
+CIA is all in on AI and Data.
+Top down engineering of application for AI and bottom up architecture 
+
+OSCINT often short hand for social media. Some of the best information we find is still out in newspapers and video.
+
+We deliver so much information to the intelligence community that’s it’s unusable.  Too daunting and too much info.
+
+CIA problems:
+We have solved the problem of having too much information. We are changing the workforce to go back and get more info. Using summarization and sourcing. Using chat to ask questions.
+
+Can process quickly.  Can seek and find facial recognition at speed.
+
+What they need:
+Fake media. Creating and detecting fake media.  
+Looking at narratives more deeply across oscint and make those predications.
+Identify collection gaps. Have a whole lot on Russia in this space but need more in this other space.
+Provide warning.
+
+Lisa Einstein.  CISA chief Ai officer
+
+Help develop software secure by design. Fuzzing. Type of software testing to provide invalid inputs to software and fix it. Use agents to automate the process. How can our adversaries find or fix our vulnerabilities.
+
+Proactive threat hunt. Red teaming and blue teaming. Protect against malicious actors.
+
+Be obsessed with the problem and not the AI.
+
+Sarah Pierson Defense innovation Unit
+What is loitering munitions funding is? Who owns it? What do they need to understand to qualify a project before taking it on?
+
+Help them better understand what the needs are for the DOD through unclassified information.  How do we mine that space to back into understanding who owns the space, where the money is, etc.
+
+DIU.mil
+
+Diane White House
+
+Genesis book.
+
+GPUs Blackwell chip is extraordinary super computer
+
+Modal is containers as a service 
+
+
+
+
+Host a web app
+Model deploy web app
+
