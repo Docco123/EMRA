@@ -41,17 +41,11 @@ def read_input_file(filename):
             for line in lines:
                 line = line.strip()
 
-                # Debugging output to see the line being processed
-                print(f"Processing line: {line}")
-
                 # Check for lines that contain "Casualty"
                 if line.startswith("Casualty"):
                     parts = line.split(":")
                     casualty_number = int(parts[0].split()[1])  # Extract casualty number
                     details = parts[1].strip()  # The rest is the details
-
-                    # Debugging output to check details extraction
-                    print(f"Casualty number: {casualty_number}, Details: {details}")
 
                     # Check if the casualty is allocated to a bed
                     if "allocated to bed" in details:
@@ -91,29 +85,25 @@ def read_input_file(filename):
     except Exception as e:
         print(f"An error occurred while reading the file: {e}")
 
-    # Debugging output to show lists and casualties
-    print(f"Bed List: {bed_list}")
-    print(f"Helicopter List: {helicopter_list}")
-    print(f"No Care List: {no_care_list}")
-    print(f"Casualties: {casualties}")
-
     return casualties, bed_list, helicopter_list, no_care_list
 
-# Function to create a new file with just the casualty lists (without messages)
-def write_casualty_list_to_file(casualties, bed_list, helicopter_list, no_care_list, output_filename="casualty_list.txt"):
+# Function to create and write healthcare professional message to a file
+def write_healthcare_message_to_file(nurse_message, output_filename="healthcare_report.txt"):
     try:
         with open(output_filename, 'w') as file:
-            file.write("Casualty List:\n")
-            file.write(f"Patients allocated to beds: {bed_list}\n")
-            file.write(f"Patients allocated to helicopter: {helicopter_list}\n")
-            file.write(f"Patients receiving no care: {no_care_list}\n")
-            file.write("\nDetails of each casualty:\n")
-            for casualty in casualties:
-                file.write(f"Casualty {casualty}: {casualties[casualty]}\n")
+            file.write(nurse_message)
     except Exception as e:
         print(f"An error occurred while writing to the file: {e}")
 
-# Function to create custom message for nurses
+# Function to create and write blood manager message to a file
+def write_blood_message_to_file(blood_message, output_filename="blood_report.txt"):
+    try:
+        with open(output_filename, 'w') as file:
+            file.write(blood_message)
+    except Exception as e:
+        print(f"An error occurred while writing to the file: {e}")
+
+# Function to create custom message for nurses (Healthcare professional)
 def generate_nurse_message(casualties, bed_list, helicopter_list, no_care_list):
     nurse_message = "Here are the new patient plans:\n"
     nurse_message += f"Patients allocated to beds: {bed_list}\n"
@@ -130,7 +120,7 @@ def generate_nurse_message(casualties, bed_list, helicopter_list, no_care_list):
 
     return nurse_message
 
-# Function to create custom message for the person managing blood resources
+# Function to create custom message for blood resources manager
 def generate_blood_message(casualties, total_blood_available=30):
     total_blood_needed = sum([casualties[casualty]["blood"] for casualty in casualties if casualties[casualty]["status"] in ["bed", "helicopter"]])
     blood_message = f"Total blood units needed: {total_blood_needed}\n"
@@ -145,36 +135,17 @@ def generate_blood_message(casualties, total_blood_available=30):
 
     return blood_message
 
-# Function to write the generated messages to a text file
-def write_report_to_file(nurse_message, blood_message, output_filename="casualty_report.txt"):
-    try:
-        with open(output_filename, 'w') as file:
-            file.write(nurse_message)
-            file.write("\n\n")  # Adding space between messages
-            file.write(blood_message)
-    except Exception as e:
-        print(f"An error occurred while writing to the file: {e}")
-
 # Example usage
 filename = 'output.txt'  # Path to your input text file
 casualties, bed_list, helicopter_list, no_care_list = read_input_file(filename)
 
-# Generate messages
+# Generate messages for healthcare professional (nurse) and blood manager
 nurse_message = generate_nurse_message(casualties, bed_list, helicopter_list, no_care_list)
 blood_message = generate_blood_message(casualties)
 
-# Optionally, use the API to process the message (for example, summarizing or enhancing the message)
-api_response = call_nipr_api(nurse_message)
-if api_response:
-    print(f"API Response: {api_response}")
-else:
-    print("API request failed.")
-
-# Write messages to a text file
-write_report_to_file(nurse_message, blood_message)
-
-# Write a new file with just the casualty lists (without messages)
-write_casualty_list_to_file(casualties, bed_list, helicopter_list, no_care_list)
+# Write messages to separate text files
+write_healthcare_message_to_file(nurse_message, "healthcare_report.txt")
+write_blood_message_to_file(blood_message, "blood_report.txt")
 
 # Optionally print the messages for confirmation
 print("Message for Nurse:\n", nurse_message)
