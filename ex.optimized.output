@@ -1,0 +1,45 @@
+
+Care list:
+Casualty 1 [time]
+Casualty 4 [time]
+Casualty 7 [time]
+Casualty 9 [time]
+
+Bed List: 
+Casualty 1 
+Casualty 2 
+Casualty 3 
+Casualty 4 
+Casualty 5 
+Casualty 6 
+Casualty 7
+Casualty 8
+
+Helicopter list: 
+Casualty 9
+Casualty 10
+
+Blood Resources:
+Casualty 1 [unit blood]
+Casualty 2 [unit blood]
+Casualty 3 [unit blood]
+Casualty 4 [unit blood]
+Casualty 5 [unit blood]
+Casualty 6 [unit blood]
+Casualty 7 [unit blood]
+Casualty 9 [unit blood]
+
+
+—————————-=—————
+Summary per person (non-critical output, just a summary of output per casualty)
+
+Casualty 1: [unit blood], bed /helicopter, receiving care (y/n)
+Casualty 2: [unit blood], bed /helicopter, receiving care (y/n)
+Casualty 3: [unit blood], bed /helicopter, receiving care (y/n)
+Casualty 4: [unit blood], bed /helicopter, receiving care (y/n)
+Casualty 5: [unit blood], bed /helicopter, receiving care (y/n)
+Casualty 6: [unit blood], bed /helicopter, receiving care (y/n)
+Casualty 7: [unit blood], bed /helicopter, receiving care (y/n)
+Casualty 8: [unit blood], bed /helicopter, receiving care (y/n)
+Casualty 9: [unit blood], bed /helicopter, receiving care (y/n)
+Casualty 10: [unit blood], bed /helicopter, receiving care (y/n)

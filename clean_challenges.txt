@@ -1,1 +1,67 @@
+Mutimodal ai models that can understand scientific papers and take in scientific results and compare to the available literature.
+Train multiple modals for research, simulation, and coding.
+DOE has a data explorer with many datasets.
+Argon NL also has a data sandbox.
+Having genetic AI systems in the labs. Combine models on robotic hardware in the labs to do research.
+DOE data explorer, materials data facility. 
+Genetic ai system that can work with robots in the lab to run real world experiments.
 
+CIA Overview:
+OODA loop meets DEVOPS loop. Close kill chains.
+Mark to market problem.
+Need flexible architecture and systems to react.
+CIA is all in on AI and Data.
+Performing top down engineering of application for AI and bottom up architecture.
+OSCINT often short hand for social media. Some of the best information we find is still out in newspapers and video.
+We deliver so much information to the intelligence community that’s it’s unusable.  Too daunting and too much info.
+
+
+CIA Needs:
+Needs flexible architecture and systems to react to threats
+Needs methods for creating and detecting fake media.  
+Needs help looking at narratives more deeply across open-source data and making predictions.
+Needs help Identify collection gaps. Have a whole lot on Russia in this space but need more in this other space.
+Needs early warning solutions. 
+
+
+CISA Overview:
+protecting all .gov
+Protecting private sector healthcare, banking, driving, etc
+Problem: software that is secure by design. “Fuzzing testing” automation and how our adversaries exploit vulnerabilities 
+“We have very motivated adversaries”
+Red teaming and blue teaming through AI agents
+Obsess with the problem, not the AI
+
+Cyber security
+How to ease the burden on cyber defenders 
+Consider how do we secure AI systems, how can we automate the job of a cyber defender
+Help develop software secure by design. Fuzzing. Type of software testing to provide invalid inputs to software and fix it. Use agents to automate the process. How can our adversaries find or fix our vulnerabilities.
+Proactive threat hunt. Red teaming and blue teaming. Protect against malicious actors.
+Be obsessed with the problem and not the AI.
+
+DIU Overview:
+Trace back to 2015 with SecDef Carter
+Helps gov find helpful commercial tech
+ 
+DIU Needs:
+Better understand the needs of the DoD through public info like spending bills.
+What is loitering munitions funding is? Who owns it? What do they need to understand to qualify a project before taking it on?
+Help them better understand what the needs are for the DOD through unclassified information.  How do we mine that space to back into understanding who owns the space, where the money is, etc.
+
+Guest: Eric, ceo of Google (in a private jet)
+How to get establishment thinker on to a small autonomous model
+Importance of proving your idea
+“My best friend for many years was Henry Kissinngger”
+Developed an interest in “cogs”
+Book starts talking about polymaths, very rare and very valuable
+In the next decade or so, will be possible to have everyone have a polymath on their phone. In 10 years, will have a system in 95th percentile of every field for you to use. What would it be like to live with this? It has no morales
+Reinforcement leading with foundation models.
+The scaling laws may be decreasing
+What happens when people’s best friends are these agents, when they misbehave, when they have access to weapons, when other countries use them: book called Genisus (like the biblical book)
+SCSP was Kissinggers idea. Wrote reports about the problems of the time. 
+Government is good at saying the like people building companies, bad at working with them. It’s very hard to get scalable money. We don’t have a structured model for startup people to works with the Gov untill you have enough revenue to have a sales force and work with the government  
+Don’t use AI models with stocasity do algorithmic tasks… use algorithms (can use ai to create these
+Chairman of a company called sandbox EQ… doing quantum sensing and aggregation: not jammable 
+GPS doesn’t work because it is being blocked across the conflict zone
+Quantum sensing can help with biometric info for health. 
+The GPU ability to do quantum simulation is pretty good
