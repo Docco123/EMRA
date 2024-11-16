@@ -1,7 +1,7 @@
 ################################
 # Just Playing with Q-learning #
 ################################
-
+# Example Q Learning not used for project
 
 
 import numpy as np
