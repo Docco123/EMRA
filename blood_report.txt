@@ -1,18 +1,14 @@
-Total blood units needed: 12
-Blood allocation per casualty:
-Casualty 1: 1 units
-Casualty 2: 2 units
-Casualty 3: 0 units
-Casualty 4: 2 units
-Casualty 10: 2 units
-Casualty 12: 0 units
-Casualty 13: 0 units
-Casualty 15: 2 units
-Casualty 17: 2 units
-Casualty 19: 1 units
-Casualty 6: 2 units
-Casualty 7: 2 units
-Casualty 14: 2 units
-Casualty 18: 2 units
-Blood remaining: 18 units
+Based on the provided information, here are some key statistics and observations:
 
+1. **Survival Rates**: The survival rates for casualties who received care range from 0.80 to 0.90, with an average survival rate of 0.85. For those who received no care, the survival rates range from 0.25 to 0.36, with an average survival rate of 0.29.
+
+2. **Resource Utilization**: The total care time used is 2.02 hours out of a possible 6 hours, indicating that there is still 3.98 hours of care time available. The total blood units used are 9 out of 30, leaving 21 blood units available.
+
+3. **Patient Allocation**:
+   - 10 casualties were allocated to beds: [2, 3, 6, 7, 12, 13, 14, 15, 17, 19].
+   - 4 casualties were allocated to the helicopter: [4, 9, 11, 16].
+   - 6 casualties received no care: [0, 1, 5, 8, 10, 18].
+
+4. **Blood Unit Requirements**: The casualties allocated to beds required a total of 9 blood units, with 2 casualties requiring 2 blood units each, 5 requiring 1 blood unit each, and 3 requiring no blood units. The casualties allocated to the helicopter required a total of 6 blood units, with 3 requiring 2 blood units each.
+
+5. **Care Time Requirements**: The casualties allocated to beds required a total of 2.02 hours of care time, with an average care time of 0.20 hours per casualty.
