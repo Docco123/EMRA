@@ -1,0 +1,9 @@
+Here are the new patient plans:
+Patients allocated to beds: []
+Patients allocated to helicopter: []
+Patients receiving no care: []
+
+
+Total blood units needed: 0
+Blood allocation per casualty:
+Blood remaining: 30 units

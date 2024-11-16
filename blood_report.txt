@@ -1,0 +1,18 @@
+Total blood units needed: 12
+Blood allocation per casualty:
+Casualty 1: 1 units
+Casualty 2: 2 units
+Casualty 3: 0 units
+Casualty 4: 2 units
+Casualty 10: 2 units
+Casualty 12: 0 units
+Casualty 13: 0 units
+Casualty 15: 2 units
+Casualty 17: 2 units
+Casualty 19: 1 units
+Casualty 6: 2 units
+Casualty 7: 2 units
+Casualty 14: 2 units
+Casualty 18: 2 units
+Blood remaining: 18 units
+

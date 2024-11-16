@@ -1,0 +1,80 @@
+Casualty 0 received no care:
+  Survival without care: 0.30
+Casualty 1 received no care:
+  Survival without care: 0.25
+Casualty 2 allocated to bed:
+  Required blood units: 0
+  Required care time: 0.20 hours
+  Received care time: 0.20 hours
+  Survival chance: 0.88
+Casualty 3 allocated to bed:
+  Required blood units: 1
+  Required care time: 0.30 hours
+  Received care time: 0.30 hours
+  Survival chance: 0.82
+Casualty 4 allocated to helicopter:
+  Required blood units: 2
+  Survival with care: 0.90
+Casualty 5 received no care:
+  Survival without care: 0.28
+Casualty 6 allocated to bed:
+  Required blood units: 0
+  Required care time: 0.25 hours
+  Received care time: 0.25 hours
+  Survival chance: 0.86
+Casualty 7 allocated to bed:
+  Required blood units: 2
+  Required care time: 0.20 hours
+  Received care time: 0.20 hours
+  Survival chance: 0.81
+Casualty 8 received no care:
+  Survival without care: 0.27
+Casualty 9 allocated to helicopter:
+  Required blood units: 2
+  Survival with care: 0.87
+Casualty 10 received no care:
+  Survival without care: 0.29
+Casualty 11 allocated to helicopter:
+  Required blood units: 0
+  Survival with care: 0.82
+Casualty 12 allocated to bed:
+  Required blood units: 1
+  Required care time: 0.21 hours
+  Received care time: 0.21 hours
+  Survival chance: 0.89
+Casualty 13 allocated to bed:
+  Required blood units: 2
+  Required care time: 0.17 hours
+  Received care time: 0.17 hours
+  Survival chance: 0.80
+Casualty 14 allocated to bed:
+  Required blood units: 1
+  Required care time: 0.23 hours
+  Received care time: 0.23 hours
+  Survival chance: 0.85
+Casualty 15 allocated to bed:
+  Required blood units: 0
+  Required care time: 0.14 hours
+  Received care time: 0.14 hours
+  Survival chance: 0.83
+Casualty 16 allocated to helicopter:
+  Required blood units: 2
+  Survival with care: 0.88
+Casualty 17 allocated to bed:
+  Required blood units: 1
+  Required care time: 0.12 hours
+  Received care time: 0.12 hours
+  Survival chance: 0.81
+Casualty 18 received no care:
+  Survival without care: 0.36
+Casualty 19 allocated to bed:
+  Required blood units: 1
+  Required care time: 0.20 hours
+  Received care time: 0.20 hours
+  Survival chance: 0.84
+
+Total care time used: 2.02 hours out of 6 hours
+Total blood units used: 9 out of 30
+Patients allocated to beds: [2, 3, 6, 7, 12, 13, 14, 15, 17, 19]
+Patients allocated to helicopter: [4, 9, 11, 16]
+Patients receiving no care: [0, 1, 5, 8, 10, 18]
